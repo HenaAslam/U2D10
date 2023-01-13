@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/styles.css">
+    <title>Netflix</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ml-0">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My list</a>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Movies
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Actio</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div> -->
+          <!-- </li>  -->
+        
+       
+        </ul>
+         <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Titles,people,genre" aria-label="Search">
+        </form>
+        <i class="bi bi-search"></i>
+        <h6 class="px-3 pt-2">KIDS</h6>
+        <i class="bi bi-bell-fill pr-2"></i>
+        <div class="btn-group ml-0">
+          <button type="button" class="btn btn-secondary dropdown-toggle ml-0" data-toggle="dropdown" aria-expanded="false">
+           <img src="./assets/avatar.png" alt="">
+          </button>
+          <!-- <div class="dropdown-menu dropdown-menu-right">
+           
+        </div> -->
+       
+  
+      </div>
+    </div>
+    </nav>
+
+    <nav class="navbar navbar-expand navbar-light ml-4  " id="navbar_top">
+      <div class="container-fluid d-flex">
+        <div class="navtwoleft d-flex">
+      <a class="navbar-brand mr-5" href="#">TV Shows</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <div class="dropdown ">
+          <button class="btn btn-secondary dropdown-toggle pt-0" type="button" data-toggle="dropdown" aria-expanded="false">
+           Genres
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Anime</a>
+            <a class="dropdown-item" href="#">Crime</a>
+            <a class="dropdown-item" href="#">Comedy</a>
+          </div>
+          </div>
+        </div>
+        </div>
+     <div class="navtworight d-flex justify-content-center mr-4">
+      <i class="bi bi-filter-left mr-0 px-2"></i>
+      <i class="bi bi-grid-fill ml-0 px-2"></i>
+     </div>
+      
+      </div>
+    </div>
+    </nav>
+
+
+    <div id="carouselExampleControlsNoTouching" class="carousel slide mt-5 mr-5" data-touch="false" data-interval="false">
+      <div class="container-fluid ml-4  ">
+        <h5 class="font-weight-bold" style="color:white;   font-size: 1.4vw;
+        line-height: 1.25vw;">Trending Now</h5>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3">
+              <!-- <div class="movie-card"> -->
+              <img class="img-fluid"src="./assets/media/media0.webp" alt="">
+              <!-- <div class="info-container ">
+                <span class="px-2">Mystery</span>
+                <span class="px-2">Thriller</span>
+                <span class="px-2">Drama</span>
+                
+              </div> -->
+            <!-- </div> -->
+
+           
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 ">
+              <!-- <div class="movie-card"> -->
+              <img class="img-fluid"src="./assets/media/media1.jpg" alt="">
+              <!-- <div class="info-container ">
+                <span class="px-2">Mystery</span>
+                <span class="px-2">Thriller</span>
+                <span class="px-2">Drama</span>
+                
+              </div> -->
+            <!-- </div> -->
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media3.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media4.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media5.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media6.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media7.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media8.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media9.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media10.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media11.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media12.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media13.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media14.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media15.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media16.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media17.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media18.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+    </div>
+
+
+   
+    <div id="carouselExampleControlsNoTouching1" class="carousel slide mt-5 mr-5" data-touch="false" data-interval="false">
+      <div class="container-fluid ml-4 ">
+        <h5 class="font-weight-bold" style="color:white;   font-size: 1.4vw;
+        line-height: 1.25vw;">Watch it again</h5>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media19.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 ">
+              <div class="movie-card">
+              <img class="img-fluid"src="./assets/media/media20.jpg" alt="">
+              
+            </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media21.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media22.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media23.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media24.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media25.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media26.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media27.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media28.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media29.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media30.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media13.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media31.webp" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media32.jpg" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media11.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media17.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media18.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching1" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching1" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+    </div>
+
+
+
+
+    <div id="carouselExampleControlsNoTouching2" class="carousel slide mt-5 mr-5" data-touch="false" data-interval="false">
+      <div class="container-fluid ml-4 ">
+        <h5 class="font-weight-bold" style="color:white;   font-size: 1.4vw;
+        line-height: 1.25vw;">New Releases</h5>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media23.webp" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 ">
+          <div class="movie-card">
+
+          <img class="img-fluid"src="./assets/media/media24.jpg" alt="">
+        
+        </div></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media25.webp" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media26.webp" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media27.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media24.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media28.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media29.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media30.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media31.webp" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media32.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 "><img class="img-fluid"src="./assets/media/media11.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media13.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media31.webp" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media32.jpg" alt=""></div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media11.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media17.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3"><img class="img-fluid"src="./assets/media/media18.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching2" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching2" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+    </div>
+
+
+
+  <div class="container foo mt-4 pt-3">
+<div class="row">
+    <div class="col-6 col-md-3 mb-md-2 colcustom">
+      <div class="logos d-flex justify-content-around mb-3">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-youtube"></i>
+      </div>
+      <div class="mb-3 ml-3"><a href="#">Audio and subtitles</a></div>
+      <div class="mb-3 ml-3"><a href="#">Media center</a> </div>
+      <div class="mb-3 ml-3"><a href="#">Privacy</a></div>
+      <div class="mb-3 ml-3"><a href="#">Contact us</a></div>
+      <div class="mb-3 ml-3"><button type="button" class="btn btn-outline-dark">Service code</button></div>
+      <span class="mb-3 ml-3">© 1997-2009 Netflix,inc.</span>
+    </div>
+    <div class="col-6 col-md-3 mb-md-2 colcustom">
+      <div class="mb-3 ml-3"><a href="#">Audio descriptions</a></div>
+      <div class="mb-3 ml-3"><a href="#">Investor relations</a> </div>
+      <div class="mb-3 ml-3"><a href="#">Legal notices</a></div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-md-2 colcustom">
+        <div class="mb-3 ml-3"><a href="#">Help center</a></div>
+        <div class="mb-3 ml-3"><a href="#">Jobs</a> </div>
+        <div class="mb-3 ml-3"><a href="#">Cookie preferences</a></div>
+    </div>
+
+    <div class="col-6 col-md-3 mb-md-2 colcustom">
+
+      <div class="mb-3 ml-3"><a href="#">Gift cards</a></div>
+      <div class="mb-3 ml-3"><a href="#">Terms of use</a> </div>
+      <div class="mb-3 ml-3"><a href="#">Corporate Information</a></div>
+    
+</div>
+  </div>
+
+</div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
