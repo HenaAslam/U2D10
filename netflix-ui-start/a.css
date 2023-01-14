@@ -267,3 +267,7 @@ form{
   .dropdown-menu-right{
     background-color: #141414;
   }
+  .badgeoncard{
+    position:absolute;
+    left:1px
+  }
