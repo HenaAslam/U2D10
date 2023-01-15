@@ -42,16 +42,13 @@ body {
     border:none;
  
 }
-form{
-    visibility: hidden;
+#navbarSupportedContent > form{
+   
     opacity: 0;
+
 }
 
-.navbar:first-of-type:hover form {
-    visibility: visible;
-    opacity: 1;
-    transition: 0.1s;
-  }
+
 
 .form-control:focus{
     background-color:#141414;
@@ -281,3 +278,24 @@ form{
  opacity:1;
 
 }
+
+.notification{
+  position: relative;
+}
+.fournoti{
+  position: absolute;
+bottom:11px;
+  left:10px;
+  
+
+}
+
+
+.navbar:nth-of-type(2){
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000000000000000000000;
+  background-color:#141414;
+}
+
