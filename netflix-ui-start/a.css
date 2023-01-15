@@ -250,7 +250,7 @@ form{
     position:absolute;
     top:8px;
     right:61rem;
-    transform: translatex(-60px);
+    transform: translatex(-20px);
     opacity:0;
     transition: transform 1s;
     transition:opacity 300ms;
@@ -271,3 +271,13 @@ form{
     position:absolute;
     left:1px
   }
+
+
+  .carousel-control-next-icon ,.carousel-control-prev-icon{
+   opacity:.7
+  }
+.carousel-control-next-icon:hover,.carousel-control-prev-icon:hover{
+ transform: scale(2);
+ opacity:1;
+
+}

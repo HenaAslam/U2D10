@@ -544,6 +544,14 @@ profileNode.addEventListener("click",function(){
 }
 linkProfile()
 
+function linkAccount(){
+let AccountNode=document.querySelector('#navbarSupportedContent > div > div > ul > li:nth-child(2) > button')
+AccountNode.addEventListener("click",function(){
+  window.location.href = "settings.html";
+})
+}
+linkAccount();
+
 </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
